@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h syle="color:#0000ff;"><i>creer un compt:</i></h><br>
+        <fieldset>
+            <legend>identite</legend>
+        <label for="NOM">NOM</label><br>
+        <input type="text" id="NOM" name="NOM"><br>
+        <label for="prenom">prenom</label><br>
+        <input type="text" id="prenom" name="prenom"><br>
+        <label for="date de naissance">date de naissance</label><br>
+        <input type="date" id="date de naissance" name="date de naissance"required><br>
+        </fieldset>
+        <fieldset>
+              <legend>CONTACT:</legend>
+        <label for="phone:">phone</label><br>
+        <input type="tel" id="phone" pattern="^0[5-7]\d{8}$" name="phone"placeholder="telephone"><br>
+        </fieldset>
+        <fieldset>
+            <legend>securite</legend>
+            <label for="password">password</label><br>
+             <input type="password" id="password" name="password"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Préférences</legend>
+        <label for="Newsletter"> s'incrire a la Newsletter</label><br>
+        <input type="checkbox" id="Newsletter" name="Newsletter"><br>
+        <label for="etudiant">etudiant</label><br>
+        <input type="radio" id="etudiant" name="etudiant" required><br>
+        <label for="pro">professionel</label><br>
+        <input type="radio" id="pro" name="pro"required><br>
+        </fieldset>
+    </body>
+</html>
